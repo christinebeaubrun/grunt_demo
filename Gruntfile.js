@@ -20,7 +20,7 @@ module.exports= function(grunt) {
       },
       my_target: {
         files: {
-          'dest/js/output.min.js': ['dest/js/build.js']
+          'public/js/output.min.js': ['dest/js/build.js']
         },
       },
     },
